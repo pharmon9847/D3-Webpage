@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>The 2014 U.S. ACS 1-Year Estimates Report Shows the Health Risks Facing Different Demographics</h2>
+          <p>To see different data relationships, SELECT from the HEADINGS: Poverty, Age, Household Income, Obesity,
+             Smokers, and Without Healthcare. Each selection CHANGES the State data represented in circles on the graph.
+             The small circles can then be SELECTED or HOVERED OVER to view the specific values for that state.  </p>
+
+          <p>There are three groups of data relationships on this graph, each showing powerful correlations. The first
+            group is the "Percent in Poverty" demographic as it relates to three distinct risk factors: (a) percentage  
+            of obesity, (b) percentage of smokers, and (c) percentage without healthcare. The second group is the "Median Age"
+            demographic as it relates to to three distinct risk factors: (a) percentage of obesity, (b) percentage of
+            smokers, and (c) percentage without healthcare. The third group is the "Median Household Income" demographic
+            as it relates to three distinct risk factors: (a) percentage of obesity, (b) percentage of smokers, and (c)
+            percentage without healthcare.  </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>Trilogy Education Services © 2019. All Rights Reserved.</p>
+    <p>Philip Harmon March 2020</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
